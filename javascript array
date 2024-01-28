@@ -38,3 +38,10 @@ uni.pop();
 console.log(uni);
 
 
+
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+// to know wheather it is array or not
+console.log(Array.isArray(uni));
+
+
+
