@@ -1,0 +1,40 @@
+// to find the position of the index.
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+console.log(uni.indexOf('nsu'));
+
+
+
+//  to know if the word is in the array
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+console.log(uni.includes('ju'));
+
+
+
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+// to add word at the end of array
+uni.push('uiu'); 
+console.log(uni);
+
+
+
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+// to add word at the start of array
+uni.unshift('uiu'); 
+console.log(uni);
+
+
+
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+// to remove word at the start of array
+uni.shift();
+console.log(uni);
+
+
+
+
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+// to remove word at the end of array
+uni.pop();
+console.log(uni);
+
+
