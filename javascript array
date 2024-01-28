@@ -1,19 +1,21 @@
 // to find the position of the index.
 let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
 console.log(uni.indexOf('nsu'));
+***  the result will be = 3 ***
 
 
 
 //  to know if the word is in the array
 let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
 console.log(uni.includes('ju'));
-
+***  the result will be = true  ***
 
 
 let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
 // to add word at the end of array
 uni.push('uiu'); 
 console.log(uni);
+***  the result will be = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack', 'uiu]  ***
 
 
 
@@ -21,6 +23,7 @@ let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
 // to add word at the start of array
 uni.unshift('uiu'); 
 console.log(uni);
+***  the result will be = [ 'uiu', 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack']   ***
 
 
 
@@ -28,6 +31,7 @@ let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
 // to remove word at the start of array
 uni.shift();
 console.log(uni);
+***  the result will be = [ 'du', 'ju', 'nsu', 'jnu', 'ewu', 'brack']   ***
 
 
 
@@ -36,6 +40,7 @@ let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
 // to remove word at the end of array
 uni.pop();
 console.log(uni);
+***  the result will be = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu']   ***
 
 
 
@@ -44,4 +49,20 @@ let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
 console.log(Array.isArray(uni));
 
 
+
+
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+// add something betwenn the array
+const r =uni.join('-');
+console.log(r);
+***  the result will be = buet-du-ju-nsu-jnu-ewu-brack  ***
+
+
+
+
+let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
+// custom result
+const r =uni.slice(1,4);
+console.log(r);
+***  the result will be = [ 'du', 'ju', 'nsu' ]  ***
 
