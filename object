@@ -14,6 +14,8 @@ console.log(keys);
 
 
 
+
+
 2. // to get the values 
 
 const brand ={
@@ -28,3 +30,41 @@ const news = Object.values(brand);
 console.log(news);
 
 *** the result will be = [ 'hp', '2012', '2056', 5, [ 'nice', 'original', 'summary' ] ]   ***
+
+
+
+
+
+3. // property name in object
+
+const brand = {
+    nam: 'hp',
+    year: '2012',
+    end: '2056',
+    noble: 5,
+    sudden_death: ['nice', 'original', 'summary'],
+    features: {
+        color: ['blue', 'red'],
+        type: 5,
+        temp: 'naruto, uzumaki',
+        result: {
+            gpa: 79,
+            A_plus: '48 jon'
+        }
+    }
+}
+for(const ekdom in brand){
+    console.log(ekdom);
+}
+
+
+**************************
+  the result will be:   
+nam
+year
+end
+noble
+sudden_death
+features
+
+****************
