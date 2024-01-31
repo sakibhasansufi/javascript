@@ -69,3 +69,33 @@ sudden_death
 features
 
 ****************
+
+
+
+// for getting the property and values altogether
+
+const brand = {
+    nam: 'hp',
+    year: '2012',
+    end: '2056',
+    noble: 5,
+    sudden_death: ['nice', 'original', 'summary'],
+    
+}
+const fixed =Object.keys(brand);
+console.log(fixed);
+
+for(const kl of fixed){
+    console.log(kl , '==',brand[kl])
+}
+
+
+****************************************
+ the result will be 
+nam == hp
+year == 2012
+end == 2056
+noble == 5
+sudden_death == [ 'nice', 'original', 'summary' ]
+
+*****************************************
