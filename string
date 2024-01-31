@@ -4,3 +4,11 @@ const part = add.slice(2,6);
 console.log(part);
 
 *** the resule will be = bari  ***
+
+
+// concat function
+const first = 'Sakib';
+const last = 'Hasan';
+console.log(first.concat(' ').concat(last));
+
+*** the result will be  = Sakib Hasan  ***
