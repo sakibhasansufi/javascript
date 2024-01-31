@@ -1,0 +1,13 @@
+// how many keys in an object
+
+const computer = {
+    type : 'Laptop',
+    brand : 'HP',
+    battery : '3500 kwh',
+    warranty : '5 years'
+}
+
+const keys =Object.keys(computer);
+console.log(keys);
+
+***   the result will be   = [ 'type', 'brand', 'battery', 'warranty' ]   ***
