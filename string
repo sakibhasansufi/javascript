@@ -1,0 +1,6 @@
+// slice 
+const add = 'b-baria';
+const part = add.slice(2,6);
+console.log(part);
+
+*** the resule will be = bari  ***
