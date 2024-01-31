@@ -1,4 +1,4 @@
-// how many keys in an object
+1. // how many keys in an object
 
 const computer = {
     type : 'Laptop',
@@ -11,3 +11,20 @@ const keys =Object.keys(computer);
 console.log(keys);
 
 ***   the result will be   = [ 'type', 'brand', 'battery', 'warranty' ]   ***
+
+
+
+2. // to get the values 
+
+const brand ={
+    nam : 'hp',
+    year : '2012',
+    end : '2056',
+    noble : 5,
+    sudden_death : ['nice', 'original', 'summary']
+}
+
+const news = Object.values(brand);
+console.log(news);
+
+*** the result will be = [ 'hp', '2012', '2056', 5, [ 'nice', 'original', 'summary' ] ]   ***
