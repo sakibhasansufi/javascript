@@ -55,6 +55,7 @@ const brand = {
 }
 for(const ekdom in brand){
     console.log(ekdom);
+    console.log(brand[ekdom]);  // for getting the value of the property as : hp, 2012,2056,5
 }
 
 
