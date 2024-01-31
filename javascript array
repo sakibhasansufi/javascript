@@ -27,6 +27,14 @@ console.log(uni);
 
 
 
+//join function in javascript
+const frnd = [ 'rahim', ' fahim', ' kahim', ' dahim', ' lahim', ' mahim' ];
+const realFrnd= frnd.join('||');
+console.log(realFrnd);
+*** the result will be = rahim|| fahim|| kahim|| dahim|| lahim|| mahim  ***
+
+
+
 let uni = [ 'buet','du', 'ju', 'nsu', 'jnu', 'ewu', 'brack'];
 // to remove word at the start of array
 uni.shift();
