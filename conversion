@@ -1,4 +1,4 @@
-// convert inch to feet
+1.// convert inch to feet
 function intoFeet(inch) {
     const res = inch / 12;
     const feet = parseInt(res);
@@ -12,3 +12,27 @@ console.log(intoFeet(75));
 
 
 **** the result will be  6 feet 3 inch  ****
+
+
+2.// calculate the average of the odd number
+function oddNumber(numbers) {
+    const odds =[];
+    for( const number of numbers){
+        if(number % 2===1){
+            odds.push(number);
+        }
+    }
+    console.log(odds);
+    let sum = 0;
+    for(const number of odds){
+        sum= sum+ number;
+    }
+    console.log('sum of the odd number',sum);
+    const avg= sum/odds.length;
+    return avg;
+
+}
+
+const numbs = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const store = oddNumber(numbs);
+console.log(store);
