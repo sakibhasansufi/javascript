@@ -1,0 +1,14 @@
+// convert inch to feet
+function intoFeet(inch) {
+    const res = inch / 12;
+    const feet = parseInt(res);
+    const remaining = inch%12;
+    const result = feet + ' feet ' +  remaining + ' inch';
+    return result;
+
+}
+
+console.log(intoFeet(75));
+
+
+**** the result will be  6 feet 3 inch  ****
