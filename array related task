@@ -10,4 +10,17 @@ function getEvenNumbers(arr) {
     return even;
 }
 const store = getEvenNumbers(numbers);
-console.log("The Even Numbers are: ", store);
+console.log("The Even Numbers are: ", store
+
+
+
+
+2.// Use a for...of loop to concatenate all the elements of an array into a single string.
+const numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
+let result = '';
+for (const value of numbers) {
+    result = result + value;
+}
+
+result = result.trim();
+console.log(result); // Output: Tom, Tim, Tin, Tik</
