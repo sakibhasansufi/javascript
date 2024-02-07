@@ -1,0 +1,13 @@
+1.// Write a JavaScript code to get the even numbers from an array using any looping technique.
+const numbers = [12, 98, 5, 41, 23, 78, 46];
+function getEvenNumbers(arr) {
+    let even = [];
+    for (const item of arr) {
+        if( item % 2 == 0){
+            even.push(item);
+        }
+    }
+    return even;
+}
+const store = getEvenNumbers(numbers);
+console.log("The Even Numbers are: ", store);
