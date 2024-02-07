@@ -1,4 +1,4 @@
-//Take four parameters. Multiply the four numbers and then return the result
+1.//Take four parameters. Multiply the four numbers and then return the result
 
 function multiply(num1,num2,num3,num4){
 console.log(num1,'x',num2,'x',num3,'x',num4,'=');
@@ -14,3 +14,21 @@ the output is =
 8 x 4 x 5 x 6 =
 multiplication of the number is 960
 */
+
+
+
+
+2.//Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.
+
+const a = 9;
+function oddEven(number) {
+    console.log(number);
+    if (number % 2 === 0) {
+        return number/2;
+    } else {
+        return number*2;
+    }
+}
+
+const store = oddEven(a);
+console.log(store);
