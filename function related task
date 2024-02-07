@@ -1,14 +1,11 @@
 1.//Take four parameters. Multiply the four numbers and then return the result
-
 function multiply(num1,num2,num3,num4){
 console.log(num1,'x',num2,'x',num3,'x',num4,'=');
 let result = num1 * num2* num3* num4;
 return result; 
 }
-
 const numbers = multiply(8,4,5,6)
 console.log('multiplication of the number is',numbers);
-
 /* 
 the output is =
 8 x 4 x 5 x 6 =
@@ -19,7 +16,6 @@ multiplication of the number is 960
 
 
 2.//Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.
-
 const a = 9;
 function oddEven(number) {
     console.log(number);
@@ -29,6 +25,25 @@ function oddEven(number) {
         return number*2;
     }
 }
-
 const store = oddEven(a);
+console.log(store);
+
+
+
+
+3.// Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
+const numbers = [8,9,12,14,10];
+function make_avg(array){
+    console.log(array);
+    let sum = 0;
+    for(const num of array){
+        if(num>array.length){
+            sum = sum+num;
+        }
+    }
+    console.log('the sum is',sum);
+    const avg = sum/array.length;
+    return avg.toFixed(2);
+}
+const store = make_avg(numbers);
 console.log(store);
